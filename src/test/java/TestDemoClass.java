@@ -16,7 +16,7 @@ public class TestDemoClass {
 
 	@Test
 	public void testFindMax() {
-		assertEquals(100,DemoClass.findMax(new int[] {20,10,5,4,2}));
+		assertEquals(20,DemoClass.findMax(new int[] {20,10,5,4,2}));
 	}
 
 	@Test
